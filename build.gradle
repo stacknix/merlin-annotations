@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'maven'
+}
+
+group 'com.stacknix.merlin'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}
